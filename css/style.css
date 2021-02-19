@@ -508,23 +508,173 @@ body {
   display: block;
   width: 35px;
   height: 2px;
-  background-color: #fff;
+  background-color:#fff;
   transition: 0.8s;
 }
 
-.line-top {
-  top: 10px; 
+#hamburger span:nth-of-type(1) {
+  top: 10px;
 }
 
-.line-middle {
+#hamburger span:nth-of-type(2) {
   top: 20px; 
 }
 
-.line-bottom {
-  top: 30px; 
+#hamburger span:nth-of-type(3) {
+  top: 30px;
 }
+
 
 .header-nav {
   display: none;
+}
+
+#firstview{
+  flex-wrap: wrap;
+}
+
+.catchcopy{
+  position: absolute;
+  top: 400px;
+  left: 130px;
+  width: 70%;
+  text-align: center;
+  margin:  0 auto;
+  font-size: 100px;
+}
+
+.news{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+
+.news-content{
+  height: 120px;
+  flex-wrap: wrap;
+}
+
+.news_date{
+  font-size: 20px;
+}
+
+.news_title{
+  width: 85%;
+  font-size: 3vh;
+}
+
+.news-icon{
+  padding-top: 10px;
+  height: 120px;
+  font-size: 4vw;
+  position: relative;
+}
+
+
+
+.mission_title{
+  width: 140%;
+  font-size: 4rem;
+}
+
+
+.mission_text{
+font-size: 2rem;
+width: 140%;
+}
+
+.mission-btn {
+  position: absolute;
+  bottom: 35px;
+  height: 15px;
+
+}
+
+
+.service-img{
+  margin: 0 auto;
+  width: 80%;
+}
+
+.service-content_inner{
+  flex-wrap: wrap;
+  width: 80%;
+  position: relative;
+  left: 80px;
+}
+
+.mgb-15{
+  width: 110%;
+  font-size: 2rem;
+}
+
+.common-btn{
+  font-size: 2rem;
+  width: 40%;
+  padding: 20px;
+}
+
+.recruit-company_size{
+  width: 100%;
+  height: 500px;
+}
+
+.company-title{
+  font-size: 4rem;
+}
+
+.company-title span{
+  font-size: 2rem;
+}
+
+.faq{
+  width: 85%;
+  height: 150px;
+}
+
+.faq-title{
+  font-size: 3rem;
+}
+
+.faq-title-jp{
+  font-size: 2rem;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.faq-title,
+.faq-title-jp{
+  padding-top: 50px;
+  vertical-align: middle;
+}
+
+.contact-title{
+  font-size: 4rem;
+}
+
+.contact-title span{
+  font-size: 2rem;
+}
+
+.contact-subtitle{
+  font-size: 4rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contact-text{
+  font-size: 2rem;
+  width: 95%;
+  margin-top: 50px;
+}
+
+.header-logo{
+  margin: 0 auto;
+  font-size: 2rem;
+}
+
+small{
+font-size: 2rem;
 }
 }
