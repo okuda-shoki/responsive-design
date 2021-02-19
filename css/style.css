@@ -535,11 +535,11 @@ body {
 
 .catchcopy{
   position: absolute;
-  top: 400px;
-  left: 130px;
-  width: 70%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
-  margin:  0 auto;
+  width: 70%;
   font-size: 100px;
 }
 
@@ -551,31 +551,30 @@ body {
 }
 
 .news-content{
-  height: 120px;
   flex-wrap: wrap;
+  height: 80px;
 }
 
 .news_date{
-  font-size: 20px;
+  font-size: 14px;
 }
 
 .news_title{
-  width: 85%;
-  font-size: 3vh;
+  width: 70%;
+  font-size:1.5em ; 
 }
 
 .news-icon{
-  padding-top: 10px;
-  height: 120px;
-  font-size: 4vw;
-  position: relative;
+  height: 80px;
+  font-size: 14px;
 }
 
-
+.mission-content{
+}
 
 .mission_title{
   width: 140%;
-  font-size: 4rem;
+  font-size: 1.2rem;
 }
 
 
@@ -677,4 +676,5 @@ width: 140%;
 small{
 font-size: 2rem;
 }
+
 }
