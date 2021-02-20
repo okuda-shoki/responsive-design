@@ -574,7 +574,7 @@ html{
 
 
 .news_date{
-  font-size: 2rem;
+  font-size: 1.3rem;
 }
 
 .news_title{
@@ -589,25 +589,35 @@ html{
   font-size: 14px;
 }
 
+.mission{
+  height: 650px;
+}
 
 .mission_title{
   width: 40%;
   font-size: 20px;
-  transform: scale(1.5);
-  position: relative;
-  left: 40px;
+  transform: scale(1.7);
+  margin: 0 auto;
 }
 
 
 .mission_text{
 font-size: 2rem;
 width: 85%;
+margin: 0 auto;
+padding-top: 40px;
+padding-left: 50px;
 }
 
-.mission-btn a{
-  position: absolute;
-  bottom: 35px;
+.mission-content a{
+  position: static;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
 
+.mission-img{
+  position:absolute;
 }
 
 .service-content{
@@ -622,8 +632,8 @@ width: 85%;
 .service-content_inner{
   flex-wrap: wrap;
   width: 80%;
-  position: relative;
-  left: 80px;
+  position:static;
+  margin: 0 auto;
 }
 
 .mgb-15{
@@ -651,8 +661,7 @@ width: 85%;
 }
 
 .faq{
-  width: 85%;
-  height: 150px;
+    height: 150px;
 }
 
 .faq-title{
