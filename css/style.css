@@ -580,7 +580,7 @@ html{
 .news_title{
   width: 40%;
   font-size:14px;
-  transform: scalex(2.0);
+  transform: scale(1.7);
   margin: 0 auto;
 }
 
@@ -593,7 +593,7 @@ html{
 .mission_title{
   width: 40%;
   font-size: 20px;
-  transform: scaleX(1.5);
+  transform: scale(1.5);
   position: relative;
   left: 40px;
 }
@@ -604,17 +604,19 @@ font-size: 2rem;
 width: 85%;
 }
 
-.mission-btn {
+.mission-btn a{
   position: absolute;
   bottom: 35px;
-  height: 15px;
 
 }
 
+.service-content{
+  flex-wrap: wrap;
+}
 
 .service-img{
-  margin: 0 auto;
   width: 80%;
+  margin: 0 auto;
 }
 
 .service-content_inner{
@@ -622,11 +624,10 @@ width: 85%;
   width: 80%;
   position: relative;
   left: 80px;
-  padding-right: 10%;
 }
 
 .mgb-15{
-  width: 110%;
+  width: 80%;
   font-size: 2rem;
 }
 
@@ -698,7 +699,4 @@ width: 85%;
 small{
 font-size: 2rem;
 }
-
-
-
 }
