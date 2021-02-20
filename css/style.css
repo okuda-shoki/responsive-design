@@ -590,36 +590,32 @@ html{
 }
 
 .mission{
-  height: 650px;
+  height: 900px;
+}
+
+.mission-content{
+  margin: center auto;
 }
 
 .mission_title{
-  width: 40%;
-  font-size: 20px;
-  transform: scale(1.7);
-  margin: 0 auto;
+  width: 120%;
+  font-size: 5.5rem;
 }
 
 
 .mission_text{
-font-size: 2rem;
-width: 85%;
-margin: 0 auto;
-padding-top: 40px;
-padding-left: 50px;
+font-size: 2.7rem;
+width: 115%;
 }
 
 .mission-content a{
-  position: static;
-  width: 60%;
-  margin: 0 auto;
+  width: 70%;
   margin-top: 20px;
 }
 
 .mission-img{
   position:absolute;
 }
-
 .service-content{
   flex-wrap: wrap;
 }
@@ -634,11 +630,12 @@ padding-left: 50px;
   width: 80%;
   position:static;
   margin: 0 auto;
+
 }
 
 .mgb-15{
-  width: 80%;
-  font-size: 2rem;
+  width: 105%;
+  font-size: 3rem;
 }
 
 .common-btn{
@@ -661,6 +658,8 @@ padding-left: 50px;
 }
 
 .faq{
+  flex-wrap: wrap;
+  justify-content: flex-start;
     height: 150px;
 }
 
