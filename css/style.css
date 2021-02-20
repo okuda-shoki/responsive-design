@@ -490,6 +490,14 @@ body {
   color: #fff;
 }
 
+.header-logo2{
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 35px;
+  color: #fff;
+  line-height: 70px;
+}
+
 @media screen and (max-width:768px) {
   #hamburger{
     width: 40px;
@@ -524,9 +532,16 @@ body {
   top: 30px;
 }
 
+html{
+  font-size: 10px;
+}
 
 .header-nav {
   display: none;
+}
+
+.header-logo{
+  text-align: left;
 }
 
 #firstview{
@@ -553,15 +568,20 @@ body {
 .news-content{
   flex-wrap: wrap;
   height: 80px;
+  display:block;
 }
 
+
+
 .news_date{
-  font-size: 14px;
+  font-size: 2rem;
 }
 
 .news_title{
-  width: 70%;
-  font-size:1.5em ; 
+  width: 40%;
+  font-size:14px;
+  transform: scalex(2.0);
+  margin: 0 auto;
 }
 
 .news-icon{
@@ -569,18 +589,19 @@ body {
   font-size: 14px;
 }
 
-.mission-content{
-}
 
 .mission_title{
-  width: 140%;
-  font-size: 1.2rem;
+  width: 40%;
+  font-size: 20px;
+  transform: scaleX(1.5);
+  position: relative;
+  left: 40px;
 }
 
 
 .mission_text{
 font-size: 2rem;
-width: 140%;
+width: 85%;
 }
 
 .mission-btn {
@@ -601,6 +622,7 @@ width: 140%;
   width: 80%;
   position: relative;
   left: 80px;
+  padding-right: 10%;
 }
 
 .mgb-15{
@@ -668,7 +690,7 @@ width: 140%;
   margin-top: 50px;
 }
 
-.header-logo{
+.header-logo2{
   margin: 0 auto;
   font-size: 2rem;
 }
@@ -676,5 +698,7 @@ width: 140%;
 small{
 font-size: 2rem;
 }
+
+
 
 }
